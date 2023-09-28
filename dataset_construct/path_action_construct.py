@@ -18,7 +18,8 @@ import math
 import argparse
 import cv2
 
-DATASET_DIR='/data5/haw/ActiveCap/'
+# revise to your own dataset directory
+DATASET_DIR='/data5/haw/ETCAP/' 
 os.environ['KUBRIC_USE_GPU'] = '0'
 
 def filter_points(scene_id):

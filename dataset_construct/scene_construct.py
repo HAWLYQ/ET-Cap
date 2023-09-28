@@ -32,7 +32,8 @@ from scipy.spatial import Delaunay
 from tqdm import tqdm
 from utils import vector_angle
 
-DATASET_DIR='/data5/haw/ActiveCap/'
+# revise to your own dataset directory
+DATASET_DIR='/data5/haw/ETCAP/' 
 
 CATEGORY2SIZE = {
                 'base':{
