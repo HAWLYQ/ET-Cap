@@ -1,7 +1,7 @@
 # Explore and Tell: Embodied Visual Captioning in 3D Environments
 
 # Environments
-- refer to kubric(https://github.com/google-research/kubric) for prepare basic experimental environment by docker pull.
+- refer to kubric(https://github.com/google-research/kubric) for preparing basic experimental environment by docker pull.
 
 - python 3.9.5, torch 1.12
 
