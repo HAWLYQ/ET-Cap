@@ -44,7 +44,7 @@ python path_action_construction.py
 ```
 
 # CaBOT
-The CaBOT code is organized based on [mmdetection](https://github.com/open-mmlab/mmdetection). The checkpoint of CaBOT (including the Navigator and the Captioner can be downloaded from ...)
+The CaBOT code is organized based on [mmdetection](https://github.com/open-mmlab/mmdetection). The checkpoint of CaBOT (including the Navigator and the Captioner) can be downloaded from baidu cloud driver (https://pan.baidu.com/s/1ejtF5SheOQ4APquXkGoM2g pwd:i5xi). Put models under ./ET-Cap/CaBOT/mmdetection/tools/work_dirs
 
 ```
 cd ./mmdetection/tools
