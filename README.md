@@ -7,9 +7,18 @@ Anwen Hu, Shizhe Chen, Liang Zhang, Qin Jin
 - python 3.9.5, torch 1.12, mmcv 1.6.0
 
 # ET-CAP Download
-Download ETCAP from baidu cloud driver (), including:
-- 3D assets (~64G): 3D assets used in ET-Cap come from ShapeNet and GSO, before donwloading 3D assets, please make sure you have accepted the license from [shapenet.org](https://shapenet.org/). 
-- 3D scenes: ~165G
+Download ETCAP from baidu cloud driver (https://pan.baidu.com/s/19JFRyqiq9TjRGSE89QUcfA pwd: rsuh), including:
+- 3D assets (zip ~64G, unzip ~142G): 3D assets used in ET-Cap come from ShapeNet and GSO, before donwloading 3D assets, please make sure you have accepted the license from [shapenet.org](https://shapenet.org/). 
+    ```
+    cd ETCAP
+    unzip kubric_asstets.zip
+    ```
+- 3D scenes: zip ~165G, unzip ~300G
+    ```
+    cat scenes_split* > scenes.zip
+    unzip scenes.zip
+    unzip scenes_redo.zip
+    ```
 - ET-Cap annotations: ~600MB
 
 # Create Your Own Scenes or Training Trajectories
@@ -108,7 +117,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.run --nproc_per_node=4 
 ```
 
 ### Spice Calculation
-The raw Spice in pycocoevalcap is not suitable for paragraph evaluation. To calcutae Spice for this task, we build a ParagraphSpice project (~2.25G). Download it from baidu cloud driver ()
+The raw Spice in pycocoevalcap is not suitable for paragraph evaluation. To calcutae Spice for this task, we build a ParagraphSpice project (~2.25G). Download it from baidu cloud driver (https://pan.baidu.com/s/1R5PUNGdg5IA6GgnpKOI5KA pwd：hted)
 ```
 # revise caption_model, pred_file and gt_file, then
 python embodied_caption_spice_eval.py
