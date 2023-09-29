@@ -427,15 +427,15 @@ if __name__ == '__main__':
     ## with annotated good views, construct navigation path and actions for imitation training
 
     # 1. randomly choose start point and generate path
-    path_construction_multiprocess(description_path='/data5/haw/ActiveCap/embodiedcap_v1_train_val.json', start=0, end=9162, process_num=30)
+    path_construction_multiprocess(description_path=DATASET_DIR+'embodiedcap_v1_train_val.json', start=0, end=9162, process_num=30)
     
     # 2. render according the path (pre-render images to save supervised training time)
-    path_render_multiprocess(description_path='/data5/haw/ActiveCap/embodiedcap_v1_train_val.json', start=0, end=9162, process_num=5)
+    path_render_multiprocess(description_path=DATASET_DIR+'embodiedcap_v1_train_val.json', start=0, end=9162, process_num=5)
     
     # 3. shorter path by combining same-direction move
-    shorter_path(description_path='/data5/haw/ActiveCap/embodiedcap_v1_train_val.json', start=0, end=9162, max_repeat_step=4)
+    shorter_path(description_path=DATASET_DIR+'embodiedcap_v1_train_val.json', start=0, end=9162, max_repeat_step=4)
     
     # 3. generate actions for each path
-    action_construction(description_path='/data5/haw/ActiveCap/embodiedcap_v1_tain_val.json', start=0, end=9162)
+    action_construction(description_path=DATASET_DIR+'embodiedcap_v1_train_val.json', start=0, end=9162)
     
     

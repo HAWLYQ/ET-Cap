@@ -21,6 +21,17 @@ Download ETCAP from baidu cloud driver (https://pan.baidu.com/s/19JFRyqiq9TjRGSE
     ```
 - ET-Cap annotations: ~600MB
 
+revise the {DATASET_DIR} to you own dataset location in following files:
+- ./ET-Cap/CaBOT/mmdetection/mmdet/datasets/embodiedcap.py
+- ./ET-Cap/CaBOT/mmdetection/mmdet/models/navigators/kubric_render.py
+- ./ET-Cap/CaBOT/mmdetection/mmdet/models/navigators/single_navigator.py
+- ./ET-Cap/dataset_construct/path_action_construct.py
+- ./ET-Cap/dataset_construct/scene_construct.py
+
+revise the {data_root} to you own dataset location in config files in 
+- ./ET-Cap/CaBOT/mmdetection/configs/single_captioner
+- ./ET-Cap/CaBOT/mmdetection/configs/single_navigator
+
 # Create Your Own Scenes or Training Trajectories
 ## 3D Scenes Simulation
 ```
