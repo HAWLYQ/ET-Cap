@@ -77,7 +77,7 @@ CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.run --nproc_per_node=1 --mast
 --launcher pytorch
 ```
 
-### Captioning Evaluate (with oracle trajectories) on validation/test set (refer to navigator_dist_test.sh)
+### Captioning Evaluate (with oracle trajectories) on validation/test set (refer to captioner_dist_test.sh)
 ```
 model_dir={captioner_save_dir}
 config=captioner_timeglobal_meanview_detrinit.py
@@ -92,8 +92,8 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.run --nproc_per_node=4 
 --launcher pytorch
 ```
 
-### Captioning Evaluate (with predicted trajectories) on validation/test set (refer to navigator_dist_test.sh)
-- After test the Navigator on the val/tes set, run the following script to tranfer navigation results to the input format of the Captioner
+### Captioning Evaluate (with predicted trajectories) on validation/test set (refer to captioner_navinfer_dist_test.sh)
+- After test the Navigator on the val/test set, run the following script to tranfer navigation results to the input format of the Captioner
 ```
 # revise the navi_model_dir first
 python navi_result_format_transfer.py
