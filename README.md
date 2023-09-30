@@ -8,8 +8,8 @@ Anwen Hu, Shizhe Chen, Liang Zhang, Qin Jin
 
 # ET-CAP Download
 Download ETCAP from 
-- [Baidu Cloud Driver](https://pan.baidu.com/s/19JFRyqiq9TjRGSE89QUcfA) (pwd: rsuh): asssets+scenes+anno
-- [OneDriver](https://1drv.ms/f/s!AocXJ7uKxt6XdtEnO8p0Fr-5fl4?e=waE1Y8): anno (assets and scenes are comming soon...)
+- [Baidu Cloud Driver](https://pan.baidu.com/s/19JFRyqiq9TjRGSE89QUcfA) (pwd: rsuh): asssets+scenes+annotation
+- [OneDriver](https://1drv.ms/f/s!AocXJ7uKxt6XdtEnO8p0Fr-5fl4?e=waE1Y8): annotation (assets and scenes are comming soon...)
 
 including:
 - 3D assets (zip ~64G, unzip ~142G): 3D assets used in ET-Cap come from ShapeNet and GSO, before donwloading 3D assets, please make sure you have accepted the license from [shapenet.org](https://shapenet.org/). 
