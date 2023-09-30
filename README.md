@@ -23,7 +23,7 @@ Download ETCAP from baidu cloud driver (https://pan.baidu.com/s/19JFRyqiq9TjRGSE
     * only navigation data: navigation_v1_{split}_{subset}.json
 
         format:
-        ```json
+        ```
         list of {
             'scene_id': string, 
             'naivgation_data': list of {
@@ -42,9 +42,9 @@ Download ETCAP from baidu cloud driver (https://pan.baidu.com/s/19JFRyqiq9TjRGSE
         ``` 
         
     * both navigation and caption data: navicaption_v1_{split}_{subset}.json
-    
+
         format:
-        ```json
+        ```
         list of {
             'scene_id': string, 
             'naivgation_data': list of {
