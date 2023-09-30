@@ -42,6 +42,7 @@ Download ETCAP from baidu cloud driver (https://pan.baidu.com/s/19JFRyqiq9TjRGSE
         ``` 
         
     * both navigation and caption data: navicaption_v1_{split}_{subset}.json
+    
         format:
         ```json
         list of {
