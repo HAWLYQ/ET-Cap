@@ -163,7 +163,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.run --nproc_per_node=4 
 ```
 
 ### Spice Calculation
-The raw Spice in pycocoevalcap is not suitable for paragraph evaluation. To calcutae Spice for this task, we build a ParagraphSpice project (~2.25G). Download it from baidu cloud driver (https://pan.baidu.com/s/1R5PUNGdg5IA6GgnpKOI5KA pwd：hted)
+The raw Spice in pycocoevalcap is not suitable for paragraph evaluation. To calculate Spice for this task, we build a ParagraphSpice project (~2.25G). Download it from baidu cloud driver (https://pan.baidu.com/s/1R5PUNGdg5IA6GgnpKOI5KA pwd：hted)
 ```
 # revise caption_model, pred_file and gt_file, then
 python embodied_caption_spice_eval.py
