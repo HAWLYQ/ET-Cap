@@ -19,7 +19,7 @@ Download ETCAP from baidu cloud driver (https://pan.baidu.com/s/19JFRyqiq9TjRGSE
     unzip scenes.zip
     unzip scenes_redo.zip
     ```
-- ET-Cap annotations: ~600MB, including:
+- ET-Cap annotations: ~558MB, including:
     * only navigation data: navigation_v1_{split}_{subset}.json
 
         format:
