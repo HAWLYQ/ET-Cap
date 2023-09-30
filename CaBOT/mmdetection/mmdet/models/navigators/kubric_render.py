@@ -18,7 +18,7 @@ import math
 
 from tqdm import tqdm
 
-DATASET_DIR='/data5/haw/ActiveCap/'
+DATASET_DIR='/data5/haw/ETCAP/'
 SCENES_DIR = DATASET_DIR + 'scenes/'
 
 CATEGORY2SIZE = {
