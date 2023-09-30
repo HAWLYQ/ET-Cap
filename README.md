@@ -146,7 +146,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.run --nproc_per_node=4 
 ```
 
 ### Captioning Evaluate (with predicted trajectories) on validation/test set (refer to captioner_navinfer_dist_test.sh)
-- After test the Navigator on the val/test set, run the following script to tranfer navigation results to the input format of the Captioner
+- After test the Navigator on the val/test set, run the following script to transfer navigation results to the input format of the Captioner
 ```
 # revise the navi_model_dir first
 python navi_result_format_transfer.py
