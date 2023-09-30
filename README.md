@@ -19,7 +19,41 @@ Download ETCAP from baidu cloud driver (https://pan.baidu.com/s/19JFRyqiq9TjRGSE
     unzip scenes.zip
     unzip scenes_redo.zip
     ```
-- ET-Cap annotations: ~600MB
+- ET-Cap annotations: ~600MB, including:
+    * only navigation data: navigation_v1_{split}_{subset}.json
+
+        format:
+        ```json
+        list of {
+            'scene_id': string, 
+            'naivgation_data': list of {
+                'pathid': string, 
+                'render_dir': string, 
+                'images': list of rendered image names, 'actions': list, 
+                'path': list of position ids (int),
+                'positions': list of grid-level position coordinates, 
+                # after skip some points in the path
+                'shorter_images': list of rendered image names,
+                'shorter_actions': list,
+                'shorter_path': list of grid-level position coordinates,
+                'shorter_positions': list of grid-level position coordinates,
+            }
+        }
+        ``` 
+        
+    * both navigation and caption data: navicaption_v1_{split}_{subset}.json
+        format:
+        ```json
+        list of {
+            'scene_id': string, 
+            'naivgation_data': list of {
+                # compared 'naivgation_data' above, add  'final_view_captions'
+                'final_view_captions': list of captions of the trajectory
+            },
+            'scene_captions': list of captions of the scene
+            }
+        }
+        ``` 
 
 revise the {DATASET_DIR} to you own dataset location in following files:
 - ./ET-Cap/CaBOT/mmdetection/mmdet/datasets/embodiedcap.py
