@@ -84,7 +84,7 @@ python path_action_construction.py
 # CaBOT
 The CaBOT code is organized based on [mmdetection](https://github.com/open-mmlab/mmdetection). The checkpoint of CaBOT (including the Navigator and the Captioner, ~7G) can be downloaded from:
 - [Baidu Cloud Driver](https://pan.baidu.com/s/1ejtF5SheOQ4APquXkGoM2g) (pwd:i5xi) 
-- OneDriver: comming soon...
+- [OneDriver](https://1drv.ms/f/s!AocXJ7uKxt6Xg0nwDfYfxax16iOh?e=GtKJC0)
 
 Put models under ./ET-Cap/CaBOT/mmdetection/tools/work_dirs
 
