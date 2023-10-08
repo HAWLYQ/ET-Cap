@@ -182,13 +182,12 @@ python embodied_caption_spice_eval.py
 ## Citation
 if you find this code useful for your research, please consider citing:
 ```
-@article{Hu2023ExploreAT,
+@inproceedings{hu2023explore,
   title={Explore and Tell: Embodied Visual Captioning in 3D Environments},
-  author={Anwen Hu and Shizhe Chen and Liang Zhang and Qin Jin},
-  journal={ArXiv},
-  year={2023},
-  volume={abs/2308.10447},
-  url={https://api.semanticscholar.org/CorpusID:261048852}
+  author={Hu, Anwen and Chen, Shizhe and Zhang, Liang and Jin, Qin},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={2482--2491},
+  year={2023}
 }
 ```
 
